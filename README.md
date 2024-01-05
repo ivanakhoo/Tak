@@ -1,6 +1,7 @@
 # Tak
 By Ivan Khoo & Matthew Peterson
 
+# Description
 Recreating the 3x3 version of the beautiful game of Tak!
 
 Tak is played on a square board with even spaces like a chessboard. Unlike most other strategy games, however, it can be played on several different-sized boards. At the beginning of the game, the board starts empty and each player is given the appropriate number of stones for the board size, as listed in the table to the right.
