@@ -1,4 +1,4 @@
 
-public class Top implements IPiece {
+public class Top extends Piece {
 
 }

@@ -1,24 +1,24 @@
 /** 
  * Represents a cell on the 3x3 board
  */
-public class Spot { 
-	private IPiece piece; 
+public class Tile { 
+	private Piece piece; 
 	private int x; 
 	private int y; 
 
-	public Spot(int x, int y, IPiece piece) 
+	public Tile(int x, int y, Piece piece) 
 	{ 
 		this.setPiece(piece); 
 		this.setX(x); 
 		this.setY(y); 
 	} 
 
-	public IPiece getPiece() 
+	public Piece getPiece() 
 	{ 
 		return this.piece; 
 	} 
 
-	public void setPiece(IPiece p) 
+	public void setPiece(Piece p) 
 	{ 
 		this.piece = p; 
 	} 

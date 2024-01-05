@@ -1,4 +1,6 @@
 
-public class Pawn implements IPiece {
-
+public class Pawn extends Piece {
+	public Orientation o;
+	
+	
 }

@@ -1,12 +1,12 @@
 
 public class Board { 
-	Spot[][] boxes; 
+	Tile[][] boxes; 
 
 	public Board() { 
 		this.resetBoard(); 
 	} 
 
-	public Spot getBox(int x, int y) throws Exception { 
+	public Tile getBox(int x, int y) throws Exception { 
 
 		if (x < 0 || x > 2 || y < 0 || y > 2) { 
 			throw new Exception("Index out of bound"); 
@@ -20,7 +20,7 @@ public class Board {
 		// initialize boxes without any pieces
 		for (int i = 0; i < 3; i++) { 
 			for (int j = 0; j < 3; j++) { 
-				boxes[i][j] = new Spot(i, j, null); 
+				boxes[i][j] = new Tile(i, j, null); 
 			} 
 		} 
 	} 
