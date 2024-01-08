@@ -7,5 +7,6 @@
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="lib" path="/csc121-creative-project-billy-matthew-ivan/src/core.jar"/>
+	<classpathentry kind="lib" path="/bouncyWorld2/src/bouncyworld2-2.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
